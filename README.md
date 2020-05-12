@@ -34,6 +34,11 @@ bash-4.2$ which root4star
 ./run.sh <N_EVENTS> <input.fzd> <config.xml> 
 ```
 
+NOTE: you need to run from this directory, so that the hidden file `.rootrc` is automatically loaded when you start ROOT. Otherwise you will get errors.
+
+NOTE: if you want to run over multiple input files you can see an example script in `test/`
+
+
 Check https://github.com/jdbrice/star-fwd-dev for more info
 
 
