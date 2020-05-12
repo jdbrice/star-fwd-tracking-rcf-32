@@ -1,0 +1,4 @@
+Rint.Logon:                /star/data03/pwg/jdb/FWD/cmake-test/star-install-SL19e-32-Release/StRoot/macros/rootlogon.C
+Rint.Logoff:               /star/data03/pwg/jdb/FWD/cmake-test/star-install-SL19e-32-Release/StRoot/macros/rootlogoff.C
+Unix.*.Root.MacroPath:     ./:/star/data03/pwg/jdb/FWD/cmake-test/star-install-SL19e-32-Release/StRoot/macros:$(ROOTSYS)/macros
+Unix.*.Root.DynamicPath:   ./:/star/data03/pwg/jdb/FWD/cmake-test/star-install-SL19e-32-Release/sl74_x8664_gcc485/lib/:$(ROOTSYS)/lib

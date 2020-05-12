@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+	<Output url="results_pythia_track_finding.root" />
+
+	<TrackFinder nIterations="1">
+		<Iteration> 
+			<Include url="Crit2_Pythia.xml" />
+			<Include url="Crit3_Pythia.xml" />
+		</Iteration>
+
+		<Connector distance="1"/>
+
+		<SubsetNN active="true" min-hits-on-track="4" >
+			<Omega>0.99</Omega>
+			<StableThreshold>0.001</StableThreshold>
+		</SubsetNN>	
+
+		<HitRemover active="true">
+		</HitRemover>
+
+	</TrackFinder>
+
+	<TrackFitter constB="false" display="false" noMaterialEffects="false" off="true" refitSi="false">
+		<Vertex sigmaXY="0.02" sigmaZ="5" includeInFit="true" />
+		
+		<!-- for MC only -->
+		<Hits sigmaXY="0.01" useFCM="true" />
+	</TrackFitter>
+</config>
