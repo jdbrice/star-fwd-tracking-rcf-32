@@ -5,14 +5,10 @@ Note that this is a 32 bit build of the code and does have a few known issues co
 
 ## How to use this:
 
-1. copy this directory to your working area :
-```sh
-cp -r /star/data03/pwg/jdb/FWD/cmake-test/work .
-cd work
-```
-OR checkout from github
+1. checkout this project from github
 ```sh
 git clone https://github.com/jdbrice/star-fwd-tracking-rcf-32.git
+cd star-fwd-tracking-rcf-32
 ```
 
 
@@ -22,6 +18,8 @@ bash
 
 bash-4.2$ source rcf_env.sh
 ```
+NOTE: `bash-4.2$` is shown to make it clear youo should be in a bash prompt, the command is `source rcf_env.sh`
+
 
 3. Check that it is correct:
 ```sh
@@ -31,7 +29,7 @@ bash-4.2$ which root4star
 
 4. Look at examples (below), run code with :
 ```sh
-./run.sh <N_EVENTS> <input.fzd> <config.xml> 
+bash-4.2$ ./run.sh <N_EVENTS> <input.fzd> <config.xml> 
 ```
 
 NOTE: you need to run from this directory, so that the hidden file `.rootrc` is automatically loaded when you start ROOT. Otherwise you will get errors.
