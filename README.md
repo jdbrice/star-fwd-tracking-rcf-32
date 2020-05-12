@@ -38,6 +38,7 @@ NOTE: you need to run from this directory, so that the hidden file `.rootrc` is 
 
 NOTE: if you want to run over multiple input files you can see an example script in `test/`
 
+NOTE: The RCF setup does not yet support building / developing on the code. If you need this use the docker environment.
 
 Check https://github.com/jdbrice/star-fwd-dev for more info
 
