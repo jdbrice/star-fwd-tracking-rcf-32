@@ -32,6 +32,13 @@ bash-4.2$ which root4star
 bash-4.2$ ./run.sh <N_EVENTS> <input.fzd> <config.xml> 
 ```
 
+Pythia8 (Drell-Yan events) and HIJING MB can be found here:
+```sh
+/star/simu/simu/jwebb/2020/02-20-2020-forward-eval-sim/hijing/fzd/
+/star/simu/simu/jwebb/2020/02-20-2020-forward-eval-sim/pythia8/fzd/
+```
+
+
 NOTE: you need to run from this directory, so that the hidden file `.rootrc` is automatically loaded when you start ROOT. Otherwise you will get errors.
 
 NOTE: if you want to run over multiple input files you can see an example script in `test/`
